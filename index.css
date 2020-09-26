@@ -385,6 +385,15 @@ border: transparent;
  /*landscape*/
  @media only screen and (min-width: 568px) and (max-width: 812px) and (orientation:landscape) {
 
+    .crecer-bac{
+        background-image: url("images/mobile.jpg");
+        width: 100%;
+        min-height:fit-content;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+    }
 
     .bro-intro, .bro-text{
         text-align: center;
@@ -450,6 +459,7 @@ and (max-height:1440px)
  and (-webkit-max-device-pixel-ratio:2)
  { 
 
+ 
 
 .bro-intro, .bro-text{
     text-align: center;
